@@ -5,6 +5,9 @@ import Header from '@/components/header'
 import User from '@/assets/images/image.jpeg'
 import PugadLawin from '@/assets/images/pugadLawin.jpeg'
 import Katipunan from '@/assets/images/katipunan.jpeg'
+import Katips from '@/assets/images/katips.jpeg'
+import Cedula from '@/assets/images/cedula.jpeg'
+import Death from '@/assets/images/death.jpeg'
 import Featured from '@/components/Featured'
 
 export default function Page() {
@@ -116,6 +119,11 @@ export default function Page() {
 					</span>
 
 					<h3 className="text-2xl font-bold mt-10">THE KATIPUNAN</h3>
+					<Image
+						src={Katips}
+						alt="katipunan"
+						className="w-[80%] h-auto mx-auto"
+					/>
 					<div className="rounded-xl border-l-2 border-gray-100 px-14 py-6 mt-3">
 						<ul className="list-disc flex flex-col gap-4">
 							<li>
@@ -150,6 +158,11 @@ export default function Page() {
 					</div>
 
 					<h3 className="text-2xl font-bold mt-6">TEARING OF CEDULA</h3>
+					<Image
+						src={Cedula}
+						alt="Cedula"
+						className="w-[80%] h-auto mx-auto"
+					/>
 					<span className="mb-2">
 						Not all statements describe the tearing of cédulas in the last days of August, but Agoncillo&apos;s version, which was based on later
 						statements of Po Valenzuela and others who insisted that the cry occurred in Pugad Lawin rather than Balintawak, was the source of the
@@ -176,6 +189,11 @@ export default function Page() {
 					</span>
 
 					<h3 className="text-2xl font-bold mt-6">DEATH AND LEGACY</h3>
+					<Image
+						src={Death}
+						alt="Death"
+						className="w-[60%] h-auto mx-auto"
+					/>
 					<span className="mb-2">
 						The Philippine Revolution began in 1896 with the Cry of the Rebellion at Pugad Lawin, which eventually resulted in Philippine independence
 						in 1898.
