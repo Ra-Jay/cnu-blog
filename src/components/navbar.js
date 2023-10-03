@@ -71,6 +71,14 @@ export const Navbar = () => {
 									Politics
 								</a>
 							</li>
+							<li>
+								<a
+									href="https://quizizz.com/admin/quiz/651a9c6f8a2df34d25b8dcdf?source=quiz_share"
+									className="hover:underline"
+								>
+									Quizizz
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
