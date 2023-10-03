@@ -56,7 +56,7 @@ export const Navbar = () => {
 								<button
 									id="dropdownNavbarLink"
 									data-dropdown-toggle="dropdownNavbar"
-									className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto dark:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+									className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto"
 									onClick={() => setIsBlogDropdownOpen(!isBlogDropdownOpen)}
 								>
 									Blogs
@@ -114,7 +114,7 @@ export const Navbar = () => {
 								<button
 									id="dropdownNavbarLink"
 									data-dropdown-toggle="dropdownNavbar"
-									className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto dark:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+									className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto"
 									onClick={() => setIsDropdownOpen(!isDropdownOpen)}
 								>
 									Quizzes
