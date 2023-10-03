@@ -2,16 +2,18 @@
 
 import React from 'react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import Image from 'next/image'
 import User from '@/assets/images/image.jpeg'
 import Criticism from '@/assets/images/Internal_Criticism.png'
 import Katipunan from '@/assets/images/katipunan.jpeg'
+import Alfred1 from '@/assets/images/alfred1.jpeg'
 
 export default function Featured() {
 	const router = useRouter()
 
 	return (
-		<div className="hidden w-1/3 lg:flex flex-col gap-6  sticky top-0 z-5">
+		<div className="hidden w-1/3 md:flex flex-col gap-6  sticky top-0 z-5">
 			<h3 className="text-2xl	font-bold pb-3 mb-3 border-b-4 border-sky-600">Featured Blogs</h3>
 			<div
 				className="w-full min-h-[70px] flex gap-3 p-2 rounded cursor-pointer hover:bg-gray-900 transition ease-in-out hover:scale-[1.03]"
@@ -61,9 +63,14 @@ export default function Featured() {
 					</div>
 				</div>
 			</div>
-			<div className="w-full min-h-[70px] flex gap-3 p-3 rounded cursor-pointer hover:bg-gray-900 transition ease-in-out hover:scale-[1.03]">
+			<div
+				className="w-full min-h-[70px] flex gap-3 p-3 rounded cursor-pointer hover:bg-gray-900 transition ease-in-out hover:scale-[1.03]"
+				onClick={() => {
+					router.push('/alfred-mccoys-philippine-cartoon')
+				}}
+			>
 				<Image
-					src={Criticism}
+					src={Alfred1}
 					alt="Rounded avatar"
 					className="w-[30%] h-auto"
 				/>

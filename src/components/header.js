@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Header(props) {
 	return (
@@ -11,7 +12,13 @@ function Header(props) {
 					src={props.image}
 					alt="Rounded avatar"
 				/>
-				<span className="text-sky-600 pr-6 border-r-[1px]">{props.author}</span>
+				<Link
+					href={props.src ? props.src : '#'}
+					target="_blank"
+					className="text-sky-600 pr-6 border-r-[1px] hover:underline"
+				>
+					{props.author}
+				</Link>
 				<span>{props.datetime}</span>
 			</div>
 		</div>

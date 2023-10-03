@@ -14,6 +14,7 @@ export default function Page() {
 				<Header
 					title={'Cry of Pugad Lawin'}
 					image={User}
+					src="https://www.facebook.com/rajay.yanson/"
 					author={'RJ Yanson'}
 					datetime={'Oct 03 2023 - 9:48 am PT'}
 				/>

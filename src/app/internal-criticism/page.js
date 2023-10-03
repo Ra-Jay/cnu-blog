@@ -37,6 +37,7 @@ const InternalCrit = () => {
 				<Header
 					title={'INTERNAL CRITICISM'}
 					image={User}
+					src="https://www.facebook.com/rajay.yanson/"
 					author={'RJ Yanson'}
 					datetime={'Oct 03 2023 - 9:48 am PT'}
 				/>
@@ -73,10 +74,11 @@ const InternalCrit = () => {
 					<span className="mb-6">
 						In modern Western philosophy, hermeneutics is an area defined as the theory of interpretation. It deals with principles and procedures
 						which have an impact on the interpretation of texts, in particular their interpretation. It is therefore an art to find meaning through
-						hermeneutics. Theologically, the word &quot;hermeneutics&quot; can be regarded as a translation of Greek terms hermeneuein and hmeniaia to
-						mean interpret or interpretation. In mythology, it&apos;s associated with the Greek flying god Hermes, whose task is to interpret messages
-						from Gods for humans. Traditionally, this relates to rules on interpreting texts, especially those of sacred and legal nature.
-						Schleiermacher, Wilhelm Dilthey, Martin Heidegger, Hans Friedrich Nietzsche Gadorgamer and Paul Rico are important hermeneutical thinkers.
+						hermeneutics. Theologically, the word <span className="text-sky-600 font-bold">&quot;hermeneutics&quot;</span> can be regarded as a
+						translation of Greek terms hermeneuein and hmeniaia to mean interpret or interpretation. In mythology, it&apos;s associated with the Greek
+						flying god Hermes, whose task is to interpret messages from Gods for humans. Traditionally, this relates to rules on interpreting texts,
+						especially those of sacred and legal nature. Schleiermacher, Wilhelm Dilthey, Martin Heidegger, Hans Friedrich Nietzsche Gadorgamer and
+						Paul Rico are important hermeneutical thinkers.
 					</span>
 					<h3 className="text-4xl font-bold mt-3">Key Themes in Hermeneutics</h3>
 					<h3 className="text-2xl font-bold mt-3">Explanation</h3>
