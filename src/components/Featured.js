@@ -68,7 +68,7 @@ export default function Featured() {
 					className="w-[30%] h-auto"
 				/>
 				<div className="w-[70%] flex flex-col gap-3 justify-between">
-					<span className="font-bold">Alfred Mccoy's Philippine Cartoon</span>
+					<span className="font-bold">Alfred Mccoy&apos;s Philippine Cartoon</span>
 					<div className="flex gap-3 items-center text-xs">
 						<Image
 							className="w-6 h-6 rounded-full"

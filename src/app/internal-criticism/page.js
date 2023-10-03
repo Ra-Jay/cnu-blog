@@ -73,10 +73,10 @@ const InternalCrit = () => {
 					<span className="mb-6">
 						In modern Western philosophy, hermeneutics is an area defined as the theory of interpretation. It deals with principles and procedures
 						which have an impact on the interpretation of texts, in particular their interpretation. It is therefore an art to find meaning through
-						hermeneutics. Theologically, the word "hermeneutics" can be regarded as a translation of Greek terms hermeneuein and hmeniaia to mean
-						interpret or interpretation. In mythology, it's associated with the Greek flying god Hermes, whose task is to interpret messages from Gods
-						for humans. Traditionally, this relates to rules on interpreting texts, especially those of sacred and legal nature. Schleiermacher,
-						Wilhelm Dilthey, Martin Heidegger, Hans Friedrich Nietzsche Gadorgamer and Paul Rico are important hermeneutical thinkers.
+						hermeneutics. Theologically, the word &quot;hermeneutics&quot; can be regarded as a translation of Greek terms hermeneuein and hmeniaia to
+						mean interpret or interpretation. In mythology, it&apos;s associated with the Greek flying god Hermes, whose task is to interpret messages
+						from Gods for humans. Traditionally, this relates to rules on interpreting texts, especially those of sacred and legal nature.
+						Schleiermacher, Wilhelm Dilthey, Martin Heidegger, Hans Friedrich Nietzsche Gadorgamer and Paul Rico are important hermeneutical thinkers.
 					</span>
 					<h3 className="text-4xl font-bold mt-3">Key Themes in Hermeneutics</h3>
 					<h3 className="text-2xl font-bold mt-3">Explanation</h3>
@@ -100,10 +100,10 @@ const InternalCrit = () => {
 					<h3 className="text-2xl font-bold mt-6">Method of Internal Criticism</h3>
 					<span>
 						A healthy doubt and a critical and analytical mind are more important than anything else when it comes to internal criticism. As we
-						approach the historical source, there's always going to be doubt. This helps the historian to arrive at an accurate account of history.
-						The cautious approach is designed to protect the researcher from mistakes. Critical analyses should be carried out on the content of this
-						document. It is appropriate to divide the document into several parts. The analysis and testing of each trace shall be performed in
-						isolation. To determine the nature of historic evidence and to verify its authenticity, it is necessary to use a critical method.
+						approach the historical source, there&apos;s always going to be doubt. This helps the historian to arrive at an accurate account of
+						history. The cautious approach is designed to protect the researcher from mistakes. Critical analyses should be carried out on the content
+						of this document. It is appropriate to divide the document into several parts. The analysis and testing of each trace shall be performed
+						in isolation. To determine the nature of historic evidence and to verify its authenticity, it is necessary to use a critical method.
 					</span>
 
 					<h3 className="text-2xl font-bold mt-6">IMPORTANCE OF INTERNAL CRITICISM</h3>
