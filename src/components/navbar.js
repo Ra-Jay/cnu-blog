@@ -13,19 +13,19 @@ export const Navbar = () => {
 	return (
 		<>
 			<nav className="w-full bg-black border-gray-500 ">
-				<div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+				<div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4 py-6">
 					<a
 						href="/"
 						className="flex items-center"
 					>
-						<Image
+						{/* <Image
 							src={Logo}
 							alt="CNU Logo"
 							className="mr-3"
 							width={80}
 							height={80}
-						/>
-						<span className="self-center text-2xl font-semibold whitespace-nowrap">Cebu Normal University</span>
+						/> */}
+						<span className="text-sky-600 self-center text-3xl font-semibold whitespace-nowrap">Let&apos;s Look Back</span>
 					</a>
 					<div className="flex items-center">
 						<input
