@@ -19,7 +19,12 @@ function Header(props) {
 				>
 					{props.author}
 				</Link>
-				<span>{props.datetime}</span>
+				<span className="pr-6 border-r-[1px]">{props.datetime}</span>
+				{props.viewers && (
+					<span>
+						Viewers: <span className="cursor-pointer hover:underline">{props.viewers}</span>
+					</span>
+				)}
 			</div>
 		</div>
 	)

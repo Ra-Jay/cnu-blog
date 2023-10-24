@@ -20,6 +20,7 @@ export default function Page() {
 					src="https://www.facebook.com/rajay.yanson/"
 					author={'RJ Yanson'}
 					datetime={'Oct 03 2023 - 9:48 am PT'}
+					viewers={31}
 				/>
 				<div className="w-full flex flex-col gap-3">
 					<div className="flex gap-4 mb-36">

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Header from '@/components/header'
 import Blockquote from '@/components/blockquote'
 import User from '@/assets/images/image.jpeg'
+import Elmer from '@/assets/images/elmer.jpeg'
 import Criticism from '@/assets/images/Internal_Criticism.png'
 import Featured from '@/components/Featured'
 
@@ -36,10 +37,11 @@ const InternalCrit = () => {
 			<div className="w-2/3 flex flex-col gap-20">
 				<Header
 					title={'INTERNAL CRITICISM'}
-					image={User}
+					image={Elmer}
 					src="https://www.facebook.com/rajay.yanson/"
-					author={'RJ Yanson'}
+					author={'Elmer Mativo'}
 					datetime={'Oct 03 2023 - 9:48 am PT'}
+					viewers={33}
 				/>
 
 				<div className="w-full flex flex-col gap-3">

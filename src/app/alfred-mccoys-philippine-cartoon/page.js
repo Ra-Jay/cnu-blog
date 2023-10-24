@@ -3,6 +3,7 @@ import Image from 'next/image'
 import User from '@/assets/images/image.jpeg'
 import Header from '@/components/header'
 import Featured from '@/components/Featured'
+import Sheena from '@/assets/images/sheena.jpeg'
 import Alfred1 from '@/assets/images/alfred1.jpeg'
 import Alfred2 from '@/assets/images/alfred2.jpeg'
 import Alfred3 from '@/assets/images/alfred3.jpeg'
@@ -15,10 +16,11 @@ export default function Page() {
 			<div className="w-2/3 flex flex-col gap-20">
 				<Header
 					title={"Alfred Mccoy's Philippine Cartoon"}
-					image={User}
+					image={Sheena}
 					src="https://www.facebook.com/rajay.yanson/"
-					author={'RJ Yanson'}
+					author={'Sheena Mansueto'}
 					datetime={'Oct 03 2023 - 9:48 am PT'}
+					viewers={35}
 				/>
 				<div className="w-full flex flex-col gap-3">
 					<span className="first-letter:text-5xl first-letter:font-bold first-letter:mr-3 first-letter:float-left">

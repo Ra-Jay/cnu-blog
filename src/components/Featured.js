@@ -5,6 +5,8 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import User from '@/assets/images/image.jpeg'
+import Elmer from '@/assets/images/elmer.jpeg'
+import Sheena from '@/assets/images/sheena.jpeg'
 import Criticism from '@/assets/images/Internal_Criticism.png'
 import Katipunan from '@/assets/images/katipunan.jpeg'
 import Alfred1 from '@/assets/images/alfred1.jpeg'
@@ -31,10 +33,10 @@ export default function Featured() {
 					<div className="flex gap-3 items-center text-xs">
 						<Image
 							className="w-6 h-6 rounded-full"
-							src={User}
+							src={Elmer}
 							alt="Rounded avatar"
 						/>
-						<span className="text-sky-600 pr-2 border-r-[1px]">RJ Yanson</span>
+						<span className="text-sky-600 pr-2 border-r-[1px]">E. Mativo</span>
 						<span>Oct 03 2023 - 9:48 am</span>
 					</div>
 				</div>
@@ -79,11 +81,11 @@ export default function Featured() {
 					<div className="flex gap-3 items-center text-xs">
 						<Image
 							className="w-6 h-6 rounded-full"
-							src={User}
+							src={Sheena}
 							alt="Rounded avatar"
 						/>
-						<span className="text-sky-600 pr-2 border-r-[1px]">RJ Yanson</span>
-						<span>Oct 03 2023 - 9:48 am</span>
+						<span className="text-sky-600 pr-2 border-r-[1px]">S. Mansueto</span>
+						<span>Oct 03 2023-9:48am</span>
 					</div>
 				</div>
 			</div>
